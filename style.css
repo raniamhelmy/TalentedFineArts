@@ -1,0 +1,254 @@
+.bg-custom {
+  background: #fff;
+}
+
+#header-1 #listed a {
+  color: #f01251;
+}
+#header-1 #listed a:hover {
+  color: #6a1b9a;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)), url("https://www.seekpng.com/png/detail/1-16654_color-splash-no-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.size-im {
+  object-fit: cover;
+}
+
+.img-div {
+  width: 98%;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+.image img {
+  max-width: 100%;
+  /*this is the only way to make image responsive inside the flexbox*/
+  margin: auto;
+  display: block;
+}
+
+.image {
+  /*responsive*/
+  max-width: 99%;
+  height: auto;
+  /* */
+  /*centerized*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* */
+}
+
+#Hom {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#Hom h3 {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#Hom a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f01251;
+  margin: auto;
+}
+#Hom a:hover {
+  text-decoration: none;
+  animation: in 3s linear 1 normal backwards;
+}
+#Hom p {
+  font-size: 20px;
+  color: #000;
+}
+
+#Our-Work .one {
+  max-width: 1200px;
+}
+#Our-Work .one h3 {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#Our-Work .one a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f01251;
+  margin: auto;
+}
+#Our-Work .one a:hover {
+  text-decoration: none;
+  animation: in 3s linear 1 normal backwards;
+}
+#Our-Work .gallery {
+  max-width: 1400px;
+}
+#Our-Work .gallery .cards {
+  max-width: 1400px;
+  display: grid;
+  grid-gap: 1rem;
+}
+#Our-Work .gallery .cards .card {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  max-width: 330px;
+  height: 330px;
+}
+#Our-Work .gallery .cards .card .gallery__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#Our-Work .gallery .cards .card .gallery__img:hover {
+  transform: scale(1.05, 1.05);
+}
+#Our-Work .but button {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background: #f01251;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-left: 0;
+  border-radius: 5px;
+  border: 1px solid #f01251;
+}
+#Our-Work .but button:hover {
+  border: 1px solid #f01251;
+  box-shadow: none;
+  transform: scale(1.1, 1.1);
+}
+
+.gallery-zoom .lightbox {
+  display: none;
+  position: fixed;
+  top: 34px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+.gallery-zoom .lightbox:target {
+  display: flex;
+}
+.gallery-zoom a:hover {
+  text-decoration: blue;
+  color: #fff;
+}
+.gallery-zoom a div {
+  position: relative;
+  margin: auto auto;
+  text-align: center;
+}
+.gallery-zoom a div span p {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#Contact-Us h3 {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#Contact-Us a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f01251;
+  margin: auto;
+}
+#Contact-Us a:hover {
+  text-decoration: none;
+  animation: in 3s linear 1 normal backwards;
+}
+#Contact-Us .social {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Contact-Us .social a {
+  text-align: center;
+  margin: auto;
+}
+
+#foot p {
+  font-size: 15px;
+}
+
+@keyframes in {
+  0% {
+    letter-spacing: 0em;
+    opacity: 1;
+  }
+  10% {
+    letter-spacing: 0.1em;
+    opacity: 1;
+  }
+  50% {
+    letter-spacing: 0.3em;
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: 0.5em;
+    opacity: 1;
+  }
+}
+@media (min-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 975px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1300px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  #Our-Work .gallery .cards .card {
+    max-width: 300px;
+    height: 300px;
+  }
+  #Our-Work .gallery .cards .card .gallery__img {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media (max-width: 340px) {
+  #Our-Work .gallery .cards .card .gallery__img {
+    width: 250px;
+    height: 250px;
+  }
+}
