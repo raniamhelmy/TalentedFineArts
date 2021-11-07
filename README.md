@@ -1,5 +1,7 @@
 # Talented Fine Arts Webpage
-This a mini-project that was created in order to appreciate some of fine art's projects for some talented students at Fine Art Institute in Egypt . The main Idea to craete this project is to get familiar with Sass along side with uderstanding some new concepts such as JQuery and Bootstrap libraries. 
+This a mini-project that was created in order to appreciate some of fine art's projects for some talented students at Fine Art Institute in Egypt . The main Idea to craete this project is to get familiar with Sass along side with uderstanding some new concepts such as JQuery and Bootstrap libraries.
+
+>As GitHub Page is a static hosting, before deploying sass files, you need to compile them first as .css file THEN apply the file were the project deploied. For that a style.css file was added to the project files and refer only the .css files in the index.html file because browser couldn't understand scss file.
 
 ## Website link
 
@@ -9,6 +11,7 @@ This a mini-project that was created in order to appreciate some of fine art's p
 
 <ul>
   <li>SASS</li>
+  <li>Compiled CSS</li>
   <li>HTML 5</li>
  </ul>
  
