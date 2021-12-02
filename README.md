@@ -5,7 +5,7 @@ This a mini-project that was created in order to appreciate some of fine art's p
 
 ## Website link
 
-[FineArt.io](https://raniamhelmy.github.io/talentedfinearts/)
+[FineArt.io](https://raniamhelmy.github.io/TalentedFineArts/)
 
 ## Technologies used to build this project
 
